@@ -21,3 +21,9 @@
 1. Singleton Pattern: Ensures only one instance of the ParkingLot class.
 2. Factory Pattern (optional extension): Could be used for creating vehicles based on input.
 3. Observer Pattern (optional extension): Could notify customers about available spots.
+
+```bash
+    xcrun clang++ -std=c++17 ParkingLot.cpp -o ParkingLot
+    
+    clang++ -std=c++17 Vehicle.cpp ParkingSpot.cpp ParkingLot.cpp ParkingLotDemo -o ParkingLotDemo
+```
